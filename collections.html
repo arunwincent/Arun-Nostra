@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arun-Nostra-E-commerce Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@400;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Arun-Nostra</h1>
+        <div class="menu-toggle">
+            <span>☰</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#new-arrival">New Arrival</a></li>
+            <li><a href="index.html#most-wanted">Most Wanted</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+
+        </ul>
+    </nav>
+    <main>
+        <section class="search-section">
+            <input type="text" id="search-input" placeholder="Search products...">
+        </section>
+
+        <section class="store-container">
+            <aside class="filter-sidebar">
+                <h3>Filter by Tag</h3>
+                <label><input type="checkbox" class="filter-check" value="summer"> Summer</label>
+                <label><input type="checkbox" class="filter-check" value="party"> Party</label>
+                <label><input type="checkbox" class="filter-check" value="new"> New</label>
+            </aside>
+            <div class="product-grid">
+                <div class="collection-grid" data-tags="party">
+                    <img src="./images/collections/c1.jpg" alt="Men's Sleek Monochrome Suit Set" width="400">
+                    <h3>Men's Sleek Monochrome Suit Set</h3>
+                    <p>Command the room in this ultra-sharp monochrome ensemble. Featuring a tailored black blazer,
+                        matching slim-fit trousers, and a crisp black button-down shirt finished with a contrasting
+                        pocket square for absolute sophistication.</p>
+                    <p class="price">₹4,499</p>
+                </div>
+
+                <div class="collection-grid" data-tags="summer">
+                    <img src="./images/collections/c2.jpg" alt="Men's Urban Tan Casual Jacket" width="400">
+                    <h3>Men's Urban Tan Casual Jacket</h3>
+                    <p>Master casual layering with this modern streetwear look. The smooth tan lightweight shirt jacket
+                        pairs effortlessly over a deep navy button-up and slim blue denim, grounded with premium brown
+                        suede Chelsea boots.</p>
+                    <p class="price">₹2,199</p>
+                </div>
+                <div class="collection-grid"  data-tags="new">
+                    <img src="./images/collections/c3.jpg" alt="Monochrome Script Printed Shirt" width="400">
+                    <h3>Monochrome Script Printed Shirt</h3>
+                    <p>Embrace effortless summer style with this striking typography-printed short-sleeve shirt. Styled
+                        perfectly with crisp white tailored chinos, a braided belt, and clean white sneakers for a
+                        refined casual aesthetic.</p>
+                    <p class="price">₹1,299</p>
+                </div>
+                <div class="collection-grid"  data-tags="summer">
+                    <img src="./images/collections/c4.jpg" alt="Classic Grey Plaid Flannel Overshirt" width="400">
+                    <h3>Classic Grey Plaid Flannel Overshirt</h3>
+                    <p>Your new everyday staple for casual weekends. This relaxed-fit grey and charcoal plaid flannel
+                        overshirt layers comfortably over a classic white crewneck tee, paired seamlessly with
+                        vintage-washed blue jeans.</p>
+                    <p class="price">₹1,499</p>
+                </div>
+
+                <div class="collection-grid"  data-tags="party">
+                    <img src="./images/collections/c5.jpg" alt="Premium Ribbed Burgundy Turtleneck" width="400">
+                    <h3>Premium Ribbed Burgundy Turtleneck</h3>
+                    <p>A sophisticated look for the cooler months. This rich burgundy ribbed turtleneck sweater offers a
+                        snug, tailored fit that pairs exceptionally well with sharp black dress pants and polished
+                        leather oxford shoes.</p>
+                    <p class="price">₹1,799</p>
+                </div>
+
+                <div class="collection-grid"  data-tags="new">
+                    <img src="./images/collections/c6.jpg" alt="Biker Style Black Leather Jacket" width="400">
+                    <h3>Biker Style Black Leather Jacket</h3>
+                    <p>Add an instant edge to your wardrobe with our premium black leather jacket, featuring quilted
+                        sleeve textures and heavy-duty zippers. Paired with a dark graphic tee and black jeans for a
+                        sleek, rugged look.</p>
+                    <p class="price">₹3,999</p>
+                </div>
+
+                <div class="collection-grid" data-tags="summer">
+                    <img src="./images/collections/c7.jpg" alt="Vintage Mustard Corduroy Shirt" width="400">
+                    <h3>Vintage Mustard Corduroy Shirt</h3>
+                    <p>Infuse rich texture into your casual wear. This short-sleeve corduroy button-up shirt in a warm
+                        mustard hue features dual chest pockets, worn open over a white tee and paired with relaxed
+                        beige trousers.</p>
+                    <p class="price">₹1,399</p>
+                </div>
+
+                <div class="collection-grid"  data-tags="party">
+                    <img src="./images/collections/c8.jpg" alt="Executive Tailored Black Blazer" width="400">
+                    <h3>Executive Tailored Black Blazer</h3>
+                    <p>The ultimate evening essentials kit. A structured black formal suit jacket cut in a modern slim
+                        profile, layered over a pristine white dress shirt and accented with subtle red contrast
+                        stitching details on the lapel buttonhole.</p>
+                    <p class="price">₹4,299</p>
+                </div>
+            </div>
+
+        </section>
+
+
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-row">
+                <h2>Arun-Nostra</h2>
+                <p>The Standard chunk of Lorem ipsum used since the 1500s is reproduced below for those interested.</p>
+                <div class="footer-socials">
+                    <span>🌐</span> <span>📸</span> <span>🐦</span>
+                </div>
+            </div>
+
+      
+            <div class="footer-row">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+        
+            <div class="footer-row">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates, access to exclusive deals, and more.</p>
+                <div class="footer-subscribe">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nostra.com. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
